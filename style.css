@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Open, sans-serif;
+  color: #69696a;
+}
+
+/* NOTE: header */
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.logo {
+  flex-grow: 1;
+  color: black;
+}
+
+nav span {
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #69696a;
+}
+
+.blk_btn {
+  background-color: black;
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+.blk_btn a {
+  color: white;
+}
+
+/* NOTE: main container */
+
+.container {
+  display: flex;
+  justify-content: center;
+  border: 1px dotted red;
+  padding: 20px;
+}
+
+.left {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.right{
+  width: 50%;
+  position: relative;
+  padding: 20px;
+}
+
+.left p {
+  border-left: 2px solid #69696a;
+  padding-left: 25px;
+  margin-top: 20px;
+}
+
+.left h1 {
+  color: black;
+}
+
+.pink {
+  background-color: rgba(247,136,167,0.6);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  z-index: 5;
+  position: absolute;
+}
+
+.orange {
+  background-color: rgba(247,193,162,0.7);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  z-index: 10;
+  position: absolute;
+  right: 200px;
+  top: 150px;
+}
+
+.purple {
+  background-color: rgba(207,130,213,0.6);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
