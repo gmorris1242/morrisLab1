@@ -7,6 +7,9 @@
 body {
   font-family: Open, sans-serif;
   color: #69696a;
+  margin: 0 auto;
+  background-color: #f9fafc;
+  width: 960px;
 }
 
 /* NOTE: header */
@@ -45,19 +48,13 @@ a {
 .container {
   display: flex;
   justify-content: center;
-  border: 1px dotted red;
   padding: 20px;
+  margin-top: 100px;
 }
 
 .left {
   width: 50%;
   margin-right: 20px;
-}
-
-.right{
-  width: 50%;
-  position: relative;
-  padding: 20px;
 }
 
 .left p {
@@ -70,6 +67,12 @@ a {
   color: black;
 }
 
+.right{
+  width: 50%;
+  position: relative;
+  padding: 20px;
+}
+
 .pink {
   background-color: rgba(247,136,167,0.6);
   width: 300px;
@@ -77,6 +80,7 @@ a {
   border-radius: 50%;
   z-index: 5;
   position: absolute;
+  right: 20%;
 }
 
 .orange {
@@ -86,8 +90,8 @@ a {
   border-radius: 50%;
   z-index: 10;
   position: absolute;
-  right: 200px;
-  top: 150px;
+  right: 0;
+  top: 120%;
 }
 
 .purple {
@@ -96,6 +100,11 @@ a {
   height: 150px;
   border-radius: 50%;
   position: absolute;
-  right: 200px;
-  top: 50px;
+  right: 0;
+  top: 37%;
+}
+
+footer {
+  text-align: center;
+  margin-top: 300px;
 }
