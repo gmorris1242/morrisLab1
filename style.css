@@ -36,11 +36,11 @@ a {
 
 .blk_btn {
   background-color: black;
-  padding: 10px 25px;
+  padding: 10px 30px;
   border-radius: 30px;
 }
 .blk_btn a {
-  color: white;
+  color: #f9fafc;
 }
 
 /* NOTE: main container */
@@ -58,13 +58,15 @@ a {
 }
 
 .left p {
-  border-left: 2px solid #69696a;
+  border-left: 3px solid rgba(105,105,106,.35);
   padding-left: 25px;
   margin-top: 20px;
+  color: #69696a;
 }
 
 .left h1 {
   color: black;
+  font-weight: normal;
 }
 
 .right{
@@ -103,6 +105,8 @@ a {
   right: 0;
   top: 37%;
 }
+
+/* NOTE: footer */
 
 footer {
   text-align: center;
