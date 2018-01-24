@@ -73,6 +73,7 @@ a {
   width: 50%;
   position: relative;
   padding: 20px;
+  max-height: 150px;
 }
 
 .pink {
