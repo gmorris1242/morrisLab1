@@ -112,3 +112,7 @@ footer {
   text-align: center;
   margin-top: 300px;
 }
+
+footer .blk_btn {
+  padding: 10px 20px;
+}
